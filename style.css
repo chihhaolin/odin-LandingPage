@@ -1,0 +1,261 @@
+/* ===== Reset & Base ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #1F2937;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* ===== Section 1: Header ===== */
+.header {
+  background-color: #1F2937;
+  padding: 16px 48px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #E5E7EB;
+}
+
+.nav a:hover {
+  color: #F9FAF8;
+}
+
+/* ===== Section 2: Hero ===== */
+.hero {
+  background-color: #1F2937;
+  padding: 80px 48px;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex: 1;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #E5E7EB;
+  line-height: 1.7;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.btn-primary {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.btn-primary:hover {
+  background-color: #2563EB;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #F9FAF8;
+  border: 2px solid #F9FAF8;
+}
+
+.btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ===== Section 3: Features / Cards ===== */
+.features {
+  background-color: #FFFFFF;
+  padding: 80px 48px;
+}
+
+.features-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  max-width: 260px;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid #E5E7EB;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1F2937;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* ===== Section 4: Quote ===== */
+.quote {
+  background-color: #E5E7EB;
+  padding: 80px 48px;
+}
+
+.quote-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.quote-author {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #374151;
+  text-align: right;
+}
+
+/* ===== Section 5: CTA ===== */
+.cta {
+  background-color: #3882F6;
+  padding: 56px 48px;
+}
+
+.cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 48px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cta-title {
+  font-size: 28px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.cta-subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  color: #E5E7EB;
+}
+
+/* ===== Section 6: Footer ===== */
+.footer {
+  background-color: #1F2937;
+  padding: 24px 48px;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #E5E7EB;
+}
